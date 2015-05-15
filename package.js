@@ -2,7 +2,7 @@ Package.describe({
   name: 'leitwarte:ping',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'Perform an ICMP ping to a host using jjg-ping',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/leitwarte/ping',
   // By default, Meteor will default to using README.md for documentation.
