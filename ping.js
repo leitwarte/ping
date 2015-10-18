@@ -32,7 +32,7 @@ Ping.host = function (host) {
 };
 
 /**
- * Ping a range of IPs without waiting for the result (to refresh the ARP table of the switch).
+ * Ping a range of IPs.
  * @param {array} IP list - array of IP addresses
  * @returns {undefined}
  */
