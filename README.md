@@ -10,3 +10,9 @@ var ip = '10.0.0.1';
 Ping.host(hostname);
 Ping.host(ip);
 ```
+
+To ping multiple IP:
+```
+var iplist = ["10.0.0.2", "10.0.0.2", "10.0.0.3"];
+Ping.range(iplist);
+```
