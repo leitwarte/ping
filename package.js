@@ -11,6 +11,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
+  api.use('underscore');
   api.versionsFrom('1.1.0.2');
   api.addFiles(['ping.js'], 'server');
   api.export('Ping');
